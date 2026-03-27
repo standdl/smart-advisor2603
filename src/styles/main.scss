@@ -1,0 +1,114 @@
+@import 'variables';
+
+/* 全局重置 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-normal;
+  color: $text-primary;
+  background-color: $bg-light;
+  overflow-x: hidden;
+}
+
+/* 链接 */
+a {
+  color: $primary-color;
+  text-decoration: none;
+  transition: color $transition-fast;
+
+  &:hover {
+    color: $primary-dark;
+    text-decoration: underline;
+  }
+}
+
+/* 表单元素 */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* 图片 */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 工具类 */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 0 16px;
+  }
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: $bg-light;
+  border-radius: $radius-full;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $border-color;
+  border-radius: $radius-full;
+
+  &:hover {
+    background: $text-tertiary;
+  }
+}
+
+/* 选择文本样式 */
+::selection {
+  background-color: $primary-light;
+  color: $primary-dark;
+}
+
+/* 焦点样式 */
+:focus-visible {
+  outline: 2px solid $primary-color;
+  outline-offset: 2px;
+}
+
+/* 打印样式 */
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}

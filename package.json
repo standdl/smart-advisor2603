@@ -19,7 +19,9 @@
     "naive-ui": "^2.39.0",
     "echarts": "^5.5.0",
     "axios": "^1.6.0",
-    "vue-echarts": "^6.6.0"
+    "vue-echarts": "^6.6.0",
+    "@vicons/ionicons5": "^latest",
+    "@vicons/tabler": "^latest"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.0",

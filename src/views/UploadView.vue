@@ -179,11 +179,11 @@ import { ref, onMounted, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { NButton, NIcon, NCollapse, NCollapseItem, NProgress } from 'naive-ui'
 import { 
-  Money, 
+  Cash, 
   TrendingUp, 
   CloudUpload, 
   Document, 
-  File, 
+  DocumentText, 
   People 
 } from '@vicons/ionicons5'
 import { uploadFile } from '@/api/upload'
@@ -224,11 +224,11 @@ const progressText = computed(() => {
 })
 
 // 图标组件
-const MoneyIcon = Money
+const MoneyIcon = Cash
 const TrendingIcon = TrendingUp
 const CloudUploadIcon = CloudUpload
 const DocumentIcon = Document
-const FileIcon = File
+const FileIcon = DocumentText
 const UsersIcon = People
 
 const selectModule = (module) => {

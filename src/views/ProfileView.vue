@@ -399,10 +399,10 @@ import {
   NSpace
 } from 'naive-ui'
 import {
-  Dashboard as DashboardIcon,
+   Grid as DashboardIcon,
   Time as HistoryIcon,
   Person as PersonIcon,
-  Card as CardIcon,
+  CardOutline as CardIcon,
   LogOut as LogoutIcon,
   CloudUpload as CloudUploadIcon,
   Settings as SettingsIcon,

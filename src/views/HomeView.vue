@@ -46,7 +46,7 @@
           <div class="feature-card">
             <div class="feature-icon">
               <n-icon size="48" color="#2A5CAA">
-                <MoneyIcon />
+                <WalletIcon />
               </n-icon>
             </div>
             <h4 class="feature-title">降本增效</h4>
@@ -177,14 +177,14 @@
 
 <script setup>
 import { NButton, NIcon } from 'naive-ui'
-import { Menu, TrendingUp, CompareArrows } from '@vicons/ionicons5'
-import { Money } from '@vicons/tabler'
+import { Menu, TrendingUp, GitCompare } from '@vicons/ionicons5'
+import { Wallet } from '@vicons/tabler'
 
 // 图标组件
 const MenuIcon = Menu
-const MoneyIcon = Money
+const WalletIcon = Wallet
 const TrendingIcon = TrendingUp
-const CompareIcon = CompareArrows
+const CompareIcon = GitCompare
 
 const showDemo = () => {
   // 显示演示视频或模态框

@@ -63,7 +63,7 @@ async function extractFileContent(file) {
  * @param {File} file - PDF文件
  * @returns {Promise<object>} 提取的文本内容
  */
-async function extractPDFContent(file) {
+async function extractPDFContent() {
   // 在实际环境中，这里会使用pdf-parse或类似的库来提取文本
   // 模拟返回一些示例文本
   
@@ -102,7 +102,7 @@ async function extractPDFContent(file) {
  * @param {File} file - Excel文件
  * @returns {Promise<object>} 提取的表格数据
  */
-async function extractExcelContent(file) {
+async function extractExcelContent() {
   // 在实际环境中，这里会使用xlsx库来解析Excel文件
   // 模拟返回一些示例数据
   

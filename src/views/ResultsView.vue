@@ -263,7 +263,7 @@ import {
   Download, 
   Share, 
   Print, 
-  Lock 
+  LockClosed 
 } from '@vicons/ionicons5'
 import CommonHeader from '@/components/layout/CommonHeader.vue'
 
@@ -272,7 +272,7 @@ const TrendingUpIcon = TrendingUp
 const DownloadIcon = Download
 const ShareIcon = Share
 const PrintIcon = Print
-const LockIcon = Lock
+const LockIcon = LockClosed
 
 const exportReport = () => {
   alert('导出报告功能即将上线')

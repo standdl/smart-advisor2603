@@ -430,6 +430,7 @@ function parseAIResponse(aiResponse, templateId) {
     const actionItems = extractActionItems(aiResponse);
     
     return {
+      templateId,
       sections,
       recommendations,
       metrics,
@@ -439,6 +440,7 @@ function parseAIResponse(aiResponse, templateId) {
   } catch (error) {
     console.warn('响应解析失败，返回原始文本:', error);
     return {
+      templateId,
       raw: aiResponse,
       error: '解析失败，请查看原始内容'
     };

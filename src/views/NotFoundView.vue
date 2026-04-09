@@ -119,7 +119,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { useRouter } from 'vue-router'
+//import { useRouter } from 'vue-router'
 import { NButton, NIcon, NInput } from 'naive-ui'
 import {
   Home as HomeIcon,
@@ -134,7 +134,6 @@ import {
 } from '@vicons/ionicons5'
 import CommonHeader from '@/components/layout/CommonHeader.vue'
 
-const router = useRouter()
 const searchQuery = ref('')
 
 const contactSupport = () => {

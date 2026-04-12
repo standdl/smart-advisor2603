@@ -135,8 +135,7 @@ MIT License
 ## 联系方式
 
 - 项目主页：https://advisor.yourcompany.com
-- 技术支持：tech@smart-advisor.com
-- 商务合作：business@smart-advisor.com
+- 商务合作：894339532@qq.com
 
 ---
 
